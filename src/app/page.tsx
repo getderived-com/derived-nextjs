@@ -3,7 +3,7 @@
 import ThemeToggler from "@/components/theme/toggler";
 import Link from "next/link";
 
-const origin = window.location.origin;
+const origin = window?.location?.origin;
 
 export default function Home() {
   return (
